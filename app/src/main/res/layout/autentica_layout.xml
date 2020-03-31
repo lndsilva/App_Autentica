@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Autentica_Activity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_voltar" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Sign In"
+        android:textColor="@color/corBotao"
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/edittext_sem_preenchimento"
+            android:hint="@string/e_mail_or_phone_number"
+            android:inputType="textEmailAddress"
+            android:padding="@dimen/paddingEditText" />
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edittext_sem_preenchimento"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="@dimen/paddingEditText" />
+
+        <Button
+            android:layout_width="@dimen/largura"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/botao_preenchido"
+            android:text="Log In"
+            android:textAllCaps="false"
+            android:textColor="@color/corFonteBranca" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="OR" />
+
+        <Button
+            android:layout_width="@dimen/largura"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/botao_facebook"
+            android:text="Login with Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/corFonteBranca" />
+    </LinearLayout>
+
+</LinearLayout>
