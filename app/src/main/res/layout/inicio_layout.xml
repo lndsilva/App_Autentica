@@ -12,12 +12,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:textStyle="bold"
         android:text="@string/titulo_janela"
         android:textColor="@color/corBotao"
-        android:textSize="@dimen/titulo" />
+        android:textSize="@dimen/titulo"
+        android:textStyle="bold" />
 
     <Button
+        android:id="@+id/btnLogIn"
         android:layout_width="@dimen/largura"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
@@ -28,6 +29,7 @@
         android:textSize="@dimen/textoBotao" />
 
     <Button
+        android:id="@+id/btnSignUp"
         android:layout_width="@dimen/largura"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"

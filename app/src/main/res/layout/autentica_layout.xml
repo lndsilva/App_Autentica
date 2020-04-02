@@ -30,10 +30,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
 
         <EditText
+            android:id="@+id/txtEmailPhone"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
@@ -43,6 +44,7 @@
             android:padding="@dimen/paddingEditText" />
 
         <EditText
+            android:id="@+id/txtPassword"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -52,6 +54,7 @@
             android:padding="@dimen/paddingEditText" />
 
         <Button
+            android:id="@+id/btnAutLogIn"
             android:layout_width="@dimen/largura"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
@@ -68,6 +71,7 @@
             android:text="OR" />
 
         <Button
+            android:id="@+id/btnLoginFacebook"
             android:layout_width="@dimen/largura"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"

@@ -34,6 +34,8 @@
         android:orientation="vertical">
 
         <EditText
+
+            android:id="@+id/txtFullName"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -43,6 +45,7 @@
             android:padding="@dimen/paddingEditText" />
 
         <EditText
+            android:id="@+id/txtPhoneNumber"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -52,6 +55,7 @@
             android:padding="@dimen/paddingEditText" />
 
         <EditText
+            android:id="@+id/txtEmailAddress"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -61,6 +65,7 @@
             android:padding="@dimen/paddingEditText" />
 
         <EditText
+            android:id="@+id/txtCrPassword"
             android:layout_width="380dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
@@ -69,7 +74,18 @@
             android:inputType="textPassword"
             android:padding="@dimen/paddingEditText" />
 
+        <EditText
+            android:id="@+id/txtRePassword"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/edittext_sem_preenchimento"
+            android:hint="Re-Password"
+            android:inputType="textPassword"
+            android:padding="@dimen/paddingEditText" />
+
         <Button
+            android:id="@+id/btnCrSignUp"
             android:layout_width="@dimen/largura"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
